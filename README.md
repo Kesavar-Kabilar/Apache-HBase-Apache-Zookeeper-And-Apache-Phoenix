@@ -1,8 +1,8 @@
-# Apache HBase, Apache Zookeeper, And Apache Phoenix
+# Dockerized Data Infrastructure with Hadoop
 
 This project demonstrates the setup and use of a Dockerized data management system using Apache HBase for NoSQL storage, Apache ZooKeeper for coordination, Apache Phoenix for SQL querying, and Java for data manipulation and join simulation.
 
-## Overview
+## Apache HBase, Apache Zookeeper, Apache Phoenix, and Docker
 
 The focus is on building a data management system using Apache HBase, Apache ZooKeeper, and Apache Phoenix, all within a Dockerized environment. The goal is to demonstrate proficiency in setting up and interacting with these technologies to store, manage, and query data. This involved creating HBase tables, loading data, simulating SQL joins using Java, and utilizing Phoenix for SQL-based querying.
 
@@ -161,3 +161,4 @@ This assignment was divided into several parts, each focusing on different aspec
     /usr/local/phoenix/bin/sqlline.py "$(cat url.txt)" phoenix.sql
 
     ```
+
